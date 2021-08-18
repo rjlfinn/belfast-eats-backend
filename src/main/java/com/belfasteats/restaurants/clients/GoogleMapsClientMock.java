@@ -15,8 +15,8 @@ public class GoogleMapsClientMock {
     /*
      * Fake returning distance between two geocodes
      */
-    public Long distanceBetweenTwoGeoCodes(Geocode geocodeOne, Geocode geocodeTwo) {
-        return (long) (Math.random() * 10);
+    public Double distanceBetweenTwoGeoCodes(Geocode geocodeOne, Geocode geocodeTwo) {
+        return Math.random() * 10;
     }
 
     /*
@@ -24,8 +24,8 @@ public class GoogleMapsClientMock {
      */
     public Geocode getGeocodeFromPostcode(String postCode) {
         return Geocode.builder()
-                      .latitude((long) (Math.random() * 10))
-                      .longitude((long) (Math.random() * 10))
+                      .latitude(Math.random() * 10)
+                      .longitude(Math.random() * 10)
                       .build();
     }
 }

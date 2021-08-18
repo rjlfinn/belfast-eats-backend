@@ -27,6 +27,6 @@ public class Restaurant {
     private String primaryContactEmail;
     private Date accountCreated;
 
-    private Long latitude;
-    private Long longitude;
+    private Double latitude;
+    private Double longitude;
 }

@@ -35,13 +35,13 @@ public class RestaurantServiceTests {
     @Test
     public void shouldReturnAllRestaurants() {
         // given
-        Restaurant restaurantOne = Restaurant.builder().name("1").latitude(1L).longitude(1L).build();
-        Restaurant restaurantTwo = Restaurant.builder().name("1").latitude(2L).longitude(2L).build();
+        Restaurant restaurantOne = Restaurant.builder().name("1").latitude(1d).longitude(1d).build();
+        Restaurant restaurantTwo = Restaurant.builder().name("1").latitude(2d).longitude(2d).build();
         when(restaurantsDao.findAll()).thenReturn(List.of(restaurantOne, restaurantTwo));
 
-        Geocode postcodeGeocode = Geocode.builder().latitude(1L).longitude(1L).build();
+        Geocode postcodeGeocode = Geocode.builder().latitude(1d).longitude(1d).build();
         when(googleMapsClientMock.getGeocodeFromPostcode(anyString())).thenReturn(postcodeGeocode);
-        when(googleMapsClientMock.distanceBetweenTwoGeoCodes(any(), any())).thenReturn(3L);
+        when(googleMapsClientMock.distanceBetweenTwoGeoCodes(any(), any())).thenReturn(3d);
 
         // when
         List<Restaurant> restaurants = restaurantsService.getRestaurantsInPostcode("test postcode");

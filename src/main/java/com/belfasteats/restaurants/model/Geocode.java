@@ -6,6 +6,6 @@ import lombok.Data;
 @Builder
 @Data
 public class Geocode {
-    private Long longitude;
-    private Long latitude;
+    private Double longitude;
+    private Double latitude;
 }

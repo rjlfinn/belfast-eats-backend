@@ -1,0 +1,5 @@
+
+Country Code:
+    - ISO2 ( 2 Letters )
+
+Geocode ( Process of converting Postcode to Longitude /lattitude )

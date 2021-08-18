@@ -1,0 +1,86 @@
+{
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "BT14 7JG",
+          "short_name": "BT14 7JG",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "Glenbryn Park",
+          "short_name": "Glenbryn Park",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Belfast",
+          "short_name": "Belfast",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Belfast",
+          "short_name": "Belfast",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Northern Ireland",
+          "short_name": "Northern Ireland",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United Kingdom",
+          "short_name": "GB",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Glenbryn Park, Belfast BT14 7JG, UK",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 54.6181966,
+            "lng": -5.962763300000001
+          },
+          "southwest": {
+            "lat": 54.6174646,
+            "lng": -5.964739499999999
+          }
+        },
+        "location": {
+          "lat": 54.6177053,
+          "lng": -5.9640479
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 54.61917958029149,
+            "lng": -5.962402419708497
+          },
+          "southwest": {
+            "lat": 54.61648161970849,
+            "lng": -5.965100380291502
+          }
+        }
+      },
+      "place_id": "ChIJjxv86hIIYUgR4kgoHGyLCd8",
+      "types": [
+        "postal_code"
+      ]
+    }
+  ],
+  "status": "OK"
+}

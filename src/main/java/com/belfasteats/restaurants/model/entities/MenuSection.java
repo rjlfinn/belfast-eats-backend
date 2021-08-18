@@ -13,7 +13,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 
-@AllArgsConstructor()
+@AllArgsConstructor
 @NoArgsConstructor
 @Data
 @Entity
@@ -28,8 +28,4 @@ public class MenuSection{
 
     @Column(name = "restaurant_id")
     private Long restaurantId;
-
-//    @ManyToOne
-//    @JoinColumn(name="restaurant_id", nullable = false)
-//    private Restaurant restaurant;
 }
